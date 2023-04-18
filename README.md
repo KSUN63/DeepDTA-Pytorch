@@ -3,14 +3,14 @@ Pytorch Implementation of the original DeepDTA paper (https://github.com/hkmztrk
 
 Requirements (most of them come with Anaconda except torch, pytorch-cuda, and tqdm)
 
-python==3.8.16
-numpy==1.24.1
-pandas==1.5.2
-matplotlib==3.5.3
-scipy==1.8.1
-torch==2.1.0
-pytorch-cuda==11.7
-tqdm==4.65.0
+python==3.8.16  
+numpy==1.24.1  
+pandas==1.5.2  
+matplotlib==3.5.3  
+scipy==1.8.1  
+torch==2.1.0  
+pytorch-cuda==11.7  
+tqdm==4.65.0  
 
 
 
