@@ -22,7 +22,7 @@ For analysis, there's a separate jupyter notebook files for some preliminary sca
 
 
 ## Citation
-
+```bibtex
 @article{10.1093/bioinformatics/bty593,  
     author = {Öztürk, Hakime and Özgür, Arzucan and Ozkirimli, Elif},  
     title = "{DeepDTA: deep drug–target binding affinity prediction}",  
@@ -37,3 +37,4 @@ For analysis, there's a separate jupyter notebook files for some preliminary sca
     url = {https://doi.org/10.1093/bioinformatics/bty593},  
     eprint = {https://academic.oup.com/bioinformatics/article-pdf/34/17/i821/25702584/bty593.pdf},  
 }
+```
