@@ -4,7 +4,6 @@
 
 import torch
 import torch.nn as nn
-from torchsummary import summary
 
 class Conv1d(nn.Module):
     """
