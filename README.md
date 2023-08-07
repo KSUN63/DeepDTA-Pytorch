@@ -2,7 +2,7 @@
 Pytorch Implementation of the original DeepDTA paper (https://github.com/hkmztrk/DeepDTA/)
 
 Requirements (most of them come with Anaconda except torch, pytorch-cuda, and tqdm)
-
+```
 python==3.8.16  
 numpy==1.24.1  
 pandas==1.5.2  
@@ -11,7 +11,7 @@ scipy==1.8.1
 torch==2.1.0  
 pytorch-cuda==11.7  
 tqdm==4.65.0  
-
+```
 
 
 The data format should be in the form of a csv file with four columns: proteins, ligands, affinity, split, where proteins store all the sequence information, ligands store the isomeric smile strings of the molecular binders, and affinity was either the Kd/Ki value or the bidning affinity in kcal/mol (this needs to be consistent for all data). The final split column will have three possible values that indicate the train-val-test splitting: 'train', 'val', and 'test'.
