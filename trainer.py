@@ -10,6 +10,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, Subset, DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
+from copy import deepcopy
 import logging
 import matplotlib.pyplot as plt
 
@@ -174,7 +175,7 @@ class Trainer:
             val_loss /= len(val_loader)
             if val_loss < best_val_loss:
                 best_val_loss = val_loss
-                best_weights = self.model.state_dict()
+                best_weights = deepcopy(self.model.state_dict())
                 best_epoch = epoch
                 self.logger.info('Best Model So Far in Epoch: {}'.format(epoch+1))
             self.logger.info('Epoch: {} - Validation Loss: {:.6f}'.format(epoch+1, val_loss))
